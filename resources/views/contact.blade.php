@@ -25,25 +25,6 @@
         <div class="close--icon">
             <i class="fa fa-times"></i>
         </div>
-        <!-- Logo -->
-        <a href="index.html" class="search-logo"><img src="img/core-img/logo2.png" alt=""></a>
-        <!-- Search Form -->
-        <div class="search-form">
-            <form action="#" method="get">
-                <input type="search" name="search" id="search" placeholder="Enter Your Keywords">
-                <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
-            </form>
-        </div>
-        <!-- Copwrite Text -->
-        <div class="copywrite-text">
-            <p>
-                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                Copyright &copy;<script>
-                    document.write(new Date().getFullYear());
-                </script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            </p>
-        </div>
     </div>
     <!-- ##### Search Wrapper End ##### -->
 
@@ -127,10 +108,25 @@
                             <div class="col-12 col-lg-6">
                                 <div class="contact-form-area">
                                     <h5>Send us a message</h5>
-                                    <form action="#" method="post">
-                                        <input type="text" class="form-control" id="name" placeholder="Name">
-                                        <input type="email" class="form-control" id="email" placeholder="E-mail">
-                                        <textarea name="message" class="form-control" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                                    @if(session('message'))
+                                    <div class="alert alert-success" role="alert">
+                                        Email Terkirim
+                                    </div>
+                                    @endif
+                                    <form action="{{ route('contact.store') }}" method="post">
+                                        {{csrf_field()}}
+                                        <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+                                        @error('name')
+                                        <div class="alert alert-danger">{{ $message }}</div>
+                                        @enderror
+                                        <input type="email" class="form-control" id="email" name="email" placeholder="E-mail">
+                                        @error('email')
+                                        <div class="alert alert-danger">{{ $message }}</div>
+                                        @enderror
+                                        <textarea name="message" class="form-control" id="message" name="message" cols="30" rows="10" placeholder="Message"></textarea>
+                                        @error('message')
+                                        <div class="alert alert-danger">{{ $message }}</div>
+                                        @enderror
                                         <button class="btn faith-btn" type="submit">Contact Us</button>
                                     </form>
                                 </div>
@@ -172,9 +168,6 @@
     <script src="/indexcss/js/plugins/audioplayer.js"></script>
     <!-- Active js -->
     <script src="/indexcss/js/active.js"></script>
-    <!-- Google Maps -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwuyLRa1uKNtbgx6xAJVmWy-zADgegA2s"></script>
-    <script src="/indexcss/js/google-map/map-active.js"></script>
 </body>
 
 </html>

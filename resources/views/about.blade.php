@@ -106,10 +106,10 @@
                 <div class="col-12 col-lg-4">
                     <div class="single-blog-area mb-100">
                         <div class="blog-thumbnail">
-                            <img src="/indexcss/img/blog-img/johat.jpg" height="100 px" width="100 px" alt="" />
+                            <img src="/indexcss/img/blog-img/jonatan.jpeg" height="100 px" width="100 px" alt="" />
                         </div>
                         <div class="blog-content">
-                            <a href="#" class="blog-title">Dr. Jonathan Noble</a>
+                            <a href="#" class="blog-title">Dr. Jonathan Mulia</a>
                         </div>
                     </div>
                 </div>
@@ -118,7 +118,7 @@
                 <div class="col-12 col-lg-4">
                     <div class="single-blog-area mb-100">
                         <div class="blog-thumbnail">
-                            <img src="/indexcss/img/blog-img/sukadana.jpeg" height="541 px" width="433 px" alt="" />
+                            <img src="/indexcss/img/blog-img/sukadana.jpg" height="541 px" width="433 px" alt="" />
                         </div>
                         <div class="blog-content">
                             <a href="#" class="blog-title">Prof. Ir. I Made Sukadana, MM., PhD</a>
@@ -130,7 +130,7 @@
                 <div class="col-12 col-lg-4">
                     <div class="single-blog-area mb-100">
                         <div class="blog-thumbnail">
-                            <img src="/indexcss/img/blog-img/priyadi.jpg" height="541 px" width="433 px" alt="" />
+                            <img src="/indexcss/img/blog-img/priyadii.jpg" height="541 px" width="433 px" alt="" />
                         </div>
                         <div class="blog-content">
                             <a href="#" class="blog-title">Ir. Priyadi Reksasiswa, MBA</a>

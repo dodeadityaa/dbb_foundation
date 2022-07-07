@@ -20,3 +20,24 @@
         </div>
     </section>
     <!-- ##### About Area End ##### -->
+
+
+
+
+    public function index()
+    {
+        return view('contact');
+    }
+    public function submitContactForm(Request $request)
+    {
+        $data = [
+            'name' => $request->name,
+            'email' => $request->email,
+            'message' => $request->message,
+        ];
+
+        Mail::to('info@dbb-foundation.org')->send(new VisitorContact($data));
+
+        Session::flash('message', 'Thank you for your email');
+        return redirect('contact');
+    }

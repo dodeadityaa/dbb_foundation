@@ -9,7 +9,7 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
-    <title>Kindergarten</title>
+    <title>Playgroup</title>
 
     <!-- Favicon -->
     @include('bagian.icon')
@@ -19,34 +19,7 @@
 
 </head>
 
-<body>
-    <!-- ##### Search Wrapper Start ##### -->
-    <div class="search-wrapper d-flex align-items-center justify-content-center bg-img foo-bg-overlay" style="background-image: url(/indexcss/img/bg-img/bg-2.jpg);">
-        <div class="close--icon">
-            <i class="fa fa-times"></i>
-        </div>
-        <!-- Logo -->
-        <a href="index.html" class="search-logo"><img src="/indexcss/img/core-img/logo2.png" alt=""></a>
-        <!-- Search Form -->
-        <div class="search-form">
-            <form action="#" method="get">
-                <input type="search" name="search" id="search" placeholder="Enter Your Keywords">
-                <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
-            </form>
-        </div>
-        <!-- Copwrite Text -->
-        <div class="copywrite-text">
-            <p>
-                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                Copyright &copy;<script>
-                    document.write(new Date().getFullYear());
-                </script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            </p>
-        </div>
-    </div>
-    <!-- ##### Search Wrapper End ##### -->
-
+<body class="sekolah">
     <!-- ##### Preloader ##### -->
     @include('bagian.loading')
 
@@ -55,98 +28,143 @@
     <!-- ##### Header Area End ##### -->
 
     <!-- ##### Breadcumb Area Start ##### -->
-    <div class="breadcumb-area bg-img" style="background-image: url(/indexcss/img/bg-img/bg-4.jpg);">
+    <div class="breadcumb-area bg-img" style="background-image: url(/indexcss/img/bg-img/playgroup.png);">
         <div class="container h-100">
-            <div class="row h-100 align-items-center">
-                <div class="col-12 col-md-6">
-                    <div class="breadcumb-text">
-                        <h5>Join one today</h5>
-                        <h2>DBB School PlayGroup</h2>
-                        <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
-                    </div>
+            <div class="align-items-center">
+                <div>
                 </div>
             </div>
         </div>
     </div>
     <!-- ##### Breadcumb Area End ##### -->
 
-    <!-- ##### Ministries Area Start ##### -->
-    <section class="ministries-area section-padding-100-0">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div>
-                        <h3>Duta Bina Bhuana PlayGroup [3-4 Years]</h3>
-                        <p>The DBB Kindergarten strives to raise well-behaved, disciplined, physically and mentally healthy children.
-                            Kindergarten students at DBB School are given the opportunity to explore all areas of their interests,
-                            as well as be introduced to many fields of art and abilities not covered in the traditional Curriculum,
-                            by providing pupils with exceptional opportunities through excellent extra-curricular classes that enhance
-                            child development and skill development.</p>
+    <!-- ##### Area Start ##### -->
+    <section class="faith-about-area section-padding-100-0">
+        <!-- ##### Education Start ##### -->
+        <div class="faith-blog-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-heading text-center mx-auto">
+                            <p>The DBB Kindergarten strives to raise well-behaved, disciplined, physically and mentally healthy children.
+                                Kindergarten students at DBB School are given the opportunity to explore all areas of their interests,
+                                as well as be introduced to many fields of art and abilities not covered in the traditional Curriculum,
+                                by providing pupils with exceptional opportunities through excellent extra-curricular classes that enhance
+                                child development and skill development.</p>
+                            <h3>PlayGroup Program</h3>
+                            <ol>
+                                <ul type="disc">
+                                    <p>Arts Classes</p>
+                                    <p>Traditional Balinese Dances</p>
+                                    <p>English Classes</p>
+                                    <p>Mandarin Classes</p>
+                                    <p>Music Classes (Guitar, Piano & Violin)</p>
+                                    <p>Fashion Show Class</p>
+                                    <p>Montesori Inspired Classes
+                                        (based on self-directed activity, hands-on learning and collaborative play with a Montessori trained teacher)</p>
+                                </ul>
+                            </ol>
+                            <h3>Documentation</h3>
+                            <div class="row">
+                                <!-- Single Ministry Area -->
+                                <div class="col-12 col-sm-6 col-lg-4">
+                                    <div class="single-ministry mb-100">
+                                        <img src="/indexcss/img/bg-img/daycare-1.jpg" alt="">
+                                    </div>
+                                </div>
 
-                        <h3>Duta Bina Bhuana PlayGroup Program</h3>
-                        <ol>
-                            <ul type="disc">
-                                <li>- Arts Classes</li>
-                                <li>- Traditional Balinese Dances</li>
-                                <li>- English Classes</li>
-                                <li>- Mandarin Classes</li>
-                                <li>- Music Classes (Guitar, Piano & Violin)</li>
-                                <li>- Fashion Show Class</li>
-                                <li>- Montesori Inspired Classes
-                                    (based on self-directed activity, hands-on learning and collaborative play with a Montessori trained teacher)</li>
-                            </ul>
-                        </ol>
-                        <h3>Documentation</h3>
+                                <!-- Single Ministry Area -->
+                                <div class="col-12 col-sm-6 col-lg-4">
+                                    <div class="single-ministry mb-100">
+                                        <img src="/indexcss/img/bg-img/daycare-2.jpg" alt="">
+                                    </div>
+                                </div>
+
+                                <!-- Single Ministry Area -->
+                                <div class="col-12 col-sm-6 col-lg-4">
+                                    <div class="single-ministry mb-100">
+                                        <img src="/indexcss/img/bg-img/daycare-3.jpg" alt="">
+                                    </div>
+                                </div>
+                                <!-- Single Ministry Area -->
+                                <div class="col-12 col-sm-6 col-lg-4">
+                                    <div class="single-ministry">
+                                        <img src="/indexcss/img/bg-img/daycare-1.jpg" alt="">
+                                    </div>
+                                </div>
+
+                                <!-- Single Ministry Area -->
+                                <div class="col-12 col-sm-6 col-lg-4">
+                                    <div class="single-ministry">
+                                        <img src="/indexcss/img/bg-img/daycare-2.jpg" alt="">
+                                    </div>
+                                </div>
+
+                                <!-- Single Ministry Area -->
+                                <div class="col-12 col-sm-6 col-lg-4">
+                                    <div class="single-ministry">
+                                        <img src="/indexcss/img/bg-img/daycare-3.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <h3>Graduation 2018/2019</h3>
+                            <!-- ##### Graduation Area Start ##### -->
+                            <section class="hero-area">
+                                <div class="hero-slides owl-carousel">
+                                    <!-- Single Hero Slide -->
+                                    <div class="single-hero-slide bg-img" style="background-image: url(indexcss/img/graduation2018/1.jpg);">
+                                    </div>
+
+                                    <!-- Single Hero Slide -->
+                                    <div class="single-hero-slide bg-img" style="background-image: url(indexcss/img/graduation2018/2.jpg);">
+                                    </div>
+
+                                    <!-- Single Hero Slide -->
+                                    <div class="single-hero-slide bg-img" style="background-image: url(indexcss/img/graduation2018/4.jpg);">
+                                    </div>
+
+                                    <!-- Single Hero Slide -->
+                                    <div class="single-hero-slide bg-img" style="background-image: url(indexcss/img/graduation2018/5.jpg);">
+                                    </div>
+
+                                    <!-- Single Hero Slide -->
+                                    <div class="single-hero-slide bg-img" style="background-image: url(indexcss/img/graduation2018/6.jpg);">
+                                    </div>
+
+                                    <!-- Single Hero Slide -->
+                                    <div class="single-hero-slide bg-img" style="background-image: url(indexcss/img/graduation2018/7.jpg);">
+                                    </div>
+
+                                    <!-- Single Hero Slide -->
+                                    <div class="single-hero-slide bg-img" style="background-image: url(indexcss/img/graduation2018/8.jpg);">
+                                    </div>
+
+                                    <!-- Single Hero Slide -->
+                                    <div class="single-hero-slide bg-img" style="background-image: url(indexcss/img/graduation2018/9.jpg);">
+                                    </div>
+
+                                    <!-- Single Hero Slide -->
+                                    <div class="single-hero-slide bg-img" style="background-image: url(indexcss/img/graduation2018/10.jpg);">
+                                    </div>
+
+                                    <!-- Single Hero Slide -->
+                                    <div class="single-hero-slide bg-img" style="background-image: url(indexcss/img/graduation2018/11.jpg);">
+                                    </div>
+
+                                    <!-- Single Hero Slide -->
+                                    <div class="single-hero-slide bg-img" style="background-image: url(indexcss/img/graduation2018/12.jpg);">
+                                    </div>
+                                </div>
+                            </section>
+                            <!-- ##### Graduation Area End ##### -->
+                            <p><strong>Admission and Fee information :</strong>&nbsp; <a href="/file-daftar/Formulir KB.docx">Download Pdf File</a></p>
+                            <p><strong>WA Chat :</strong>&nbsp; <a href="https://api.whatsapp.com/send?phone=6287862290656">+62 878-6229-0656</a></p>
+                        </div>
                     </div>
                 </div>
             </div>
-
-            <div class="row">
-                <!-- Single Ministry Area -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-ministry mb-100">
-                        <img src="/indexcss/img/bg-img/daycare-1.jpg" alt="">
-                    </div>
-                </div>
-
-                <!-- Single Ministry Area -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-ministry mb-100">
-                        <img src="/indexcss/img/bg-img/daycare-2.jpg" alt="">
-                    </div>
-                </div>
-
-                <!-- Single Ministry Area -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-ministry mb-100">
-                        <img src="/indexcss/img/bg-img/daycare-3.jpg" alt="">
-                    </div>
-                </div>
-                <!-- Single Ministry Area -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-ministry mb-100">
-                        <img src="/indexcss/img/bg-img/daycare-1.jpg" alt="">
-                    </div>
-                </div>
-
-                <!-- Single Ministry Area -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-ministry mb-100">
-                        <img src="/indexcss/img/bg-img/daycare-2.jpg" alt="">
-                    </div>
-                </div>
-
-                <!-- Single Ministry Area -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-ministry mb-100">
-                        <img src="/indexcss/img/bg-img/daycare-3.jpg" alt="">
-                    </div>
-                </div>
-
-            </div>
-            <p><strong>Admission and Fee information :</strong>&nbsp; <a href="/file-daftar/Formulir KB.docx">Download Pdf File</a></p>
-            <p><strong>WA Chat :</strong>&nbsp; <a href="https://api.whatsapp.com/send?phone=6287862290656">+62 878-6229-0656</a></p>
         </div>
+        <!-- ##### Education End ##### -->
     </section>
     <!-- ##### Ministries Area End ##### -->
     <!-- ##### Footer Area Start ##### -->

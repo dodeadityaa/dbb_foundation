@@ -9,7 +9,7 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
-    <title>Elementary School</title>
+    <title>Daycare</title>
 
     <!-- Favicon -->
     @include('bagian.icon')
@@ -20,32 +20,6 @@
 </head>
 
 <body>
-    <!-- ##### Search Wrapper Start ##### -->
-    <div class="search-wrapper d-flex align-items-center justify-content-center bg-img foo-bg-overlay" style="background-image: url(/indexcss/img/bg-img/bg-2.jpg);">
-        <div class="close--icon">
-            <i class="fa fa-times"></i>
-        </div>
-        <!-- Logo -->
-        <a href="index.html" class="search-logo"><img src="/indexcss/img/core-img/logo2.png" alt=""></a>
-        <!-- Search Form -->
-        <div class="search-form">
-            <form action="#" method="get">
-                <input type="search" name="search" id="search" placeholder="Enter Your Keywords">
-                <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
-            </form>
-        </div>
-        <!-- Copwrite Text -->
-        <div class="copywrite-text">
-            <p>
-                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                Copyright &copy;<script>
-                    document.write(new Date().getFullYear());
-                </script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            </p>
-        </div>
-    </div>
-    <!-- ##### Search Wrapper End ##### -->
 
     <!-- ##### Preloader ##### -->
     @include('bagian.loading')
@@ -55,96 +29,139 @@
     <!-- ##### Header Area End ##### -->
 
     <!-- ##### Breadcumb Area Start ##### -->
-    <div class="breadcumb-area bg-img" style="background-image: url(/indexcss/img/bg-img/bg-4.jpg);">
+    <div class="breadcumb-area bg-img" style="background-image: url(/indexcss/img/bg-img/elementary.png);">
         <div class="container h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-12 col-md-6">
                     <div class="breadcumb-text">
-                        <h5>Join one today</h5>
-                        <h2>DBB School Elementary School</h2>
-                        <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- ##### Breadcumb Area End ##### -->
+    <!-- ##### elementary Area Start ##### -->
+    <section class="faith-about-area section-padding-100-0">
+        <!-- ##### Education Start ##### -->
+        <div class="faith-blog-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-heading text-center mx-auto">
+                            <p>DBB Primary School strives to develop children who are globally aware, disciplined, and skilled.
+                                It also seeks to provide a healthy and collaborative educational environment in which students can develop
+                                a variety of interests and talents while also maintaining a tolerant social life, through the following</p>
+                            <h3>Elementary School Program</h3>
+                            <ol>
+                                <ul type="disc">
+                                    <p>Art & Creativity classes</p>
+                                    <p>Traditional Balinese Dance </p>
+                                    <p>Music classes (Guitar, Piano & Violin)</p>
+                                    <p>English classes </p>
+                                    <p>Mandarin conversational classes</p>
+                                    <p>Montessori inspired classes (based on self-directed activity, hands-on leaming and collaborative play with a Montessori trained teacher)</p>
+                                    <p>Field trips to Ball Zoo, Bali Bird Park, Ball Fantastic World etc.</p>
+                                </ul>
+                            </ol>
+                            <h3>Documentation</h3>
+                            <div class="row">
+                                <!-- Single Ministry Area -->
+                                <div class="col-12 col-sm-6 col-lg-4">
+                                    <div class="single-ministry mb-100">
+                                        <img src="/indexcss/img/bg-img/daycare-1.jpg" alt="">
+                                    </div>
+                                </div>
 
-    <!-- ##### Ministries Area Start ##### -->
-    <section class="ministries-area section-padding-100-0">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div>
-                        <h3>Duta Bina Bhuana Elementary School [6-12 Years]</h3>
-                        <p>DBB Primary School strives to develop children who are globally aware, disciplined, and skilled.
-                            It also seeks to provide a healthy and collaborative educational environment in which students can develop
-                            a variety of interests and talents while also maintaining a tolerant social life, through the following</p>
-                        <h3>Duta Bina Bhuana Elementary School Program</h3>
-                        <ol>
-                            <ul type="disc">
-                                <li>- Art & Creativity classes</li>
-                                <li>- Traditional Balinese Dance </li>
-                                <li>- Music classes (Guitar, Piano & Violin)</li>
-                                <li>- English classes </li>
-                                <li>- Mandarin conversational classes</li>
-                                <li>- Montessori inspired classes (based on self-directed activity, hands-on leaming and collaborative play with a Montessori trained teacher)</li>
-                                <li>- Field trips to Ball Zoo, Bali Bird Park, Ball Fantastic World etc.</li>
-                            </ul>
-                        </ol>
-                        <h3>Documentation</h3>
+                                <!-- Single Ministry Area -->
+                                <div class="col-12 col-sm-6 col-lg-4">
+                                    <div class="single-ministry mb-100">
+                                        <img src="/indexcss/img/bg-img/daycare-2.jpg" alt="">
+                                    </div>
+                                </div>
+
+                                <!-- Single Ministry Area -->
+                                <div class="col-12 col-sm-6 col-lg-4">
+                                    <div class="single-ministry mb-100">
+                                        <img src="/indexcss/img/bg-img/daycare-3.jpg" alt="">
+                                    </div>
+                                </div>
+                                <!-- Single Ministry Area -->
+                                <div class="col-12 col-sm-6 col-lg-4">
+                                    <div class="single-ministry mb-100">
+                                        <img src="/indexcss/img/bg-img/daycare-1.jpg" alt="">
+                                    </div>
+                                </div>
+
+                                <!-- Single Ministry Area -->
+                                <div class="col-12 col-sm-6 col-lg-4">
+                                    <div class="single-ministry mb-100">
+                                        <img src="/indexcss/img/bg-img/daycare-2.jpg" alt="">
+                                    </div>
+                                </div>
+
+                                <!-- Single Ministry Area -->
+                                <div class="col-12 col-sm-6 col-lg-4">
+                                    <div class="single-ministry mb-100">
+                                        <img src="/indexcss/img/bg-img/daycare-3.jpg" alt="">
+                                    </div>
+                                </div>
+
+                            </div>
+                            <h2>Graduation</h2>
+                            <div class="row">
+                                <!-- Single Ministry Area -->
+                                <div class="col-12 col-sm-6 col-lg-4">
+                                    <div class="single-ministry mb-100">
+                                        <img src="/indexcss/img/bg-img/daycare-1.jpg" alt="">
+                                    </div>
+                                </div>
+
+                                <!-- Single Ministry Area -->
+                                <div class="col-12 col-sm-6 col-lg-4">
+                                    <div class="single-ministry mb-100">
+                                        <img src="/indexcss/img/bg-img/daycare-2.jpg" alt="">
+                                    </div>
+                                </div>
+
+                                <!-- Single Ministry Area -->
+                                <div class="col-12 col-sm-6 col-lg-4">
+                                    <div class="single-ministry mb-100">
+                                        <img src="/indexcss/img/bg-img/daycare-3.jpg" alt="">
+                                    </div>
+                                </div>
+                                <!-- Single Ministry Area -->
+                                <div class="col-12 col-sm-6 col-lg-4">
+                                    <div class="single-ministry mb-100">
+                                        <img src="/indexcss/img/bg-img/daycare-1.jpg" alt="">
+                                    </div>
+                                </div>
+
+                                <!-- Single Ministry Area -->
+                                <div class="col-12 col-sm-6 col-lg-4">
+                                    <div class="single-ministry mb-100">
+                                        <img src="/indexcss/img/bg-img/daycare-2.jpg" alt="">
+                                    </div>
+                                </div>
+
+                                <!-- Single Ministry Area -->
+                                <div class="col-12 col-sm-6 col-lg-4">
+                                    <div class="single-ministry mb-100">
+                                        <img src="/indexcss/img/bg-img/daycare-3.jpg" alt="">
+                                    </div>
+                                </div>
+
+                            </div>
+                            <p><strong>Admission and Fee information :</strong>&nbsp; <a href="/file-daftar/Formulir Pendaftaraan SD 2021.docx">Download Pdf File</a></p>
+                            <p><strong>WA Chat :</strong>&nbsp; <a href="https://api.whatsapp.com/send?phone=62895800013028">+62895800013028</a></p>
+                        </div>
                     </div>
                 </div>
             </div>
-
-            <div class="row">
-                <!-- Single Ministry Area -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-ministry mb-100">
-                        <img src="/indexcss/img/bg-img/daycare-1.jpg" alt="">
-                    </div>
-                </div>
-
-                <!-- Single Ministry Area -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-ministry mb-100">
-                        <img src="/indexcss/img/bg-img/daycare-2.jpg" alt="">
-                    </div>
-                </div>
-
-                <!-- Single Ministry Area -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-ministry mb-100">
-                        <img src="/indexcss/img/bg-img/daycare-3.jpg" alt="">
-                    </div>
-                </div>
-                <!-- Single Ministry Area -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-ministry mb-100">
-                        <img src="/indexcss/img/bg-img/daycare-1.jpg" alt="">
-                    </div>
-                </div>
-
-                <!-- Single Ministry Area -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-ministry mb-100">
-                        <img src="/indexcss/img/bg-img/daycare-2.jpg" alt="">
-                    </div>
-                </div>
-
-                <!-- Single Ministry Area -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-ministry mb-100">
-                        <img src="/indexcss/img/bg-img/daycare-3.jpg" alt="">
-                    </div>
-                </div>
-
-            </div>
-            <p><strong>Admission and Fee information :</strong>&nbsp; <a href="/file-daftar/Formulir Pendaftaraan SD 2021.docx">Download Pdf File</a></p>
-            <p><strong>WA Chat :</strong>&nbsp; <a href="https://api.whatsapp.com/send?phone=62895800013028">+62895800013028</a></p>
         </div>
+        <!-- ##### Education End ##### -->
     </section>
-    <!-- ##### Ministries Area End ##### -->
+    <!-- ##### elementary Area End ##### -->
     <!-- ##### Footer Area Start ##### -->
     @include('bagian.footer')
     <!-- ##### Footer Area Start ##### -->

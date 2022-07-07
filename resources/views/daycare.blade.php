@@ -20,32 +20,6 @@
 </head>
 
 <body>
-    <!-- ##### Search Wrapper Start ##### -->
-    <div class="search-wrapper d-flex align-items-center justify-content-center bg-img foo-bg-overlay" style="background-image: url(/indexcss/img/bg-img/bg-2.jpg);">
-        <div class="close--icon">
-            <i class="fa fa-times"></i>
-        </div>
-        <!-- Logo -->
-        <a href="index.html" class="search-logo"><img src="/indexcss/img/core-img/logo2.png" alt=""></a>
-        <!-- Search Form -->
-        <div class="search-form">
-            <form action="#" method="get">
-                <input type="search" name="search" id="search" placeholder="Enter Your Keywords">
-                <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
-            </form>
-        </div>
-        <!-- Copwrite Text -->
-        <div class="copywrite-text">
-            <p>
-                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                Copyright &copy;<script>
-                    document.write(new Date().getFullYear());
-                </script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            </p>
-        </div>
-    </div>
-    <!-- ##### Search Wrapper End ##### -->
 
     <!-- ##### Preloader ##### -->
     @include('bagian.loading')
@@ -55,99 +29,101 @@
     <!-- ##### Header Area End ##### -->
 
     <!-- ##### Breadcumb Area Start ##### -->
-    <div class="breadcumb-area bg-img" style="background-image: url(/indexcss/img/bg-img/bg-4.jpg);">
-        <div class="container h-100">
-            <div class="row h-100 align-items-center">
-                <div class="col-12 col-md-6">
-                    <div class="breadcumb-text">
-                        <h5>Join one today</h5>
-                        <h2>DBB School Daycare</h2>
-                        <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+    <div class="schoolcumb-area bg-img" style="background-image: url(/indexcss/img/bg-img/daycare.png);">
+    </div>
+    <!-- ##### Breadcumb Area End ##### -->
+    <!-- ##### Daycare Area Start ##### -->
+    <section class="faith-about-area section-padding-100-0">
+        <!-- ##### Education Start ##### -->
+        <div class="faith-blog-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-heading text-center mx-auto">
+                            <p>We are the only daycare in the neighborhood that provides a full day of activities for kids.
+                                On a daily basis, the children are exposed to reading, writing, anthmetic, storytelling, sharing, discipline,
+                                and Montessori-inspired activities. Our Daycare students are trained to be self-sufficient and courageous.
+                                Every day, children are taught to be creative via a variety of art and craft activities that encourage them to use
+                                their creativity</p>
+                            <h3>Duta Bina Bhuana Daycare Program</h3>
+                            <ol>
+                                <ul type="disc">
+                                    <li>Balinese Yoga for little ones</li>
+                                    <li>Fashion Show</li>
+                                    <li>Mandarin Conversational class</li>
+                                    <li>Matematics & writing Classes</li>
+                                    <li>Modern Dance</li>
+                                    <li>Montessori-inspired programs</li>
+                                    <li>Music Class (Guitar, Piano & Singing)</li>
+                                    <li>Story Telling - Reading</li>
+                                </ul>
+                            </ol>
+                            <h3>Documentation</h3>
+                        </div>
                     </div>
                 </div>
+            </div>
+        </div>
+        <!-- ##### Education End ##### -->
+    </section>
+    <div class="row">
+        <!-- Single Ministry Area -->
+        <div class="col-12 col-sm-6 col-lg-4">
+            <div class="single-ministry mb-100">
+                <img src="/indexcss/img/daycare/1.jpg" alt="">
+            </div>
+        </div>
+
+        <!-- Single Ministry Area -->
+        <div class="col-12 col-sm-6 col-lg-4">
+            <div class="single-ministry mb-100">
+                <img src="/indexcss/img/daycare/2.jpg" alt="">
+            </div>
+        </div>
+
+        <!-- Single Ministry Area -->
+        <div class="col-12 col-sm-6 col-lg-4">
+            <div class="single-ministry mb-100">
+                <img src="/indexcss/img/daycare/3.jpg" alt="">
+            </div>
+        </div>
+        <!-- Single Ministry Area -->
+        <div class="col-12 col-sm-6 col-lg-4">
+            <div class="single-ministry mb-100">
+                <img src="/indexcss/img/daycare/4.jpg" alt="">
+            </div>
+        </div>
+
+        <!-- Single Ministry Area -->
+        <div class="col-12 col-sm-6 col-lg-4">
+            <div class="single-ministry mb-100">
+                <img src="/indexcss/img/daycare/5.jpg" alt="">
+            </div>
+        </div>
+
+        <!-- Single Ministry Area -->
+        <div class="col-12 col-sm-6 col-lg-4">
+            <div class="single-ministry mb-100">
+                <img src="/indexcss/img/daycare/6.jpg" alt="">
             </div>
         </div>
     </div>
-    <!-- ##### Breadcumb Area End ##### -->
-
-    <!-- ##### Ministries Area Start ##### -->
-    <section class="ministries-area section-padding-100-0">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div>
-                        <h3>Duta Bina Bhuana Daycare [1-7 years]</h3>
-                        <p>We are the only daycare in the neighborhood that provides a full day of activities for kids.
-                            On a daily basis, the children are exposed to reading, writing, anthmetic, storytelling, sharing, discipline,
-                            and Montessori-inspired activities. Our Daycare students are trained to be self-sufficient and courageous.
-                            Every day, children are taught to be creative via a variety of art and craft activities that encourage them to use
-                            their creativity</p>
-                        <h3>Duta Bina Bhuana Daycare Program</h3>
-                        <ol>
-                            <ul type="disc">
-                                <li>- Balinese Yoga for little ones</li>
-                                <li>- Fashion Show</li>
-                                <li>- Mandarin Conversational class</li>
-                                <li>- Matematics & writing Classes</li>
-                                <li>- Modern Dance</li>
-                                <li>- Montessori-inspired programs</li>
-                                <li>- Music Class (Guitar, Piano & Singing)</li>
-                                <li>- Story Telling - Reading</li>
-                            </ul>
-                        </ol>
-                        <h2>Documentation</h2>
+    <section class="faith-about-area section-padding-100-0">
+        <!-- ##### Education Start ##### -->
+        <div class="faith-blog-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-heading text-center mx-auto">
+                            <p><strong>Admission and Fee information WA Chat :</strong>&nbsp;<a href="https://api.whatsapp.com/send?phone=62895800013028">+62895800013028</a></p>
+                            <p><strong></p>
+                        </div>
                     </div>
                 </div>
             </div>
-
-            <div class="row">
-                <!-- Single Ministry Area -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-ministry mb-100">
-                        <img src="/indexcss/img/bg-img/daycare-1.jpg" alt="">
-                    </div>
-                </div>
-
-                <!-- Single Ministry Area -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-ministry mb-100">
-                        <img src="/indexcss/img/bg-img/daycare-2.jpg" alt="">
-                    </div>
-                </div>
-
-                <!-- Single Ministry Area -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-ministry mb-100">
-                        <img src="/indexcss/img/bg-img/daycare-3.jpg" alt="">
-                    </div>
-                </div>
-                <!-- Single Ministry Area -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-ministry mb-100">
-                        <img src="/indexcss/img/bg-img/daycare-1.jpg" alt="">
-                    </div>
-                </div>
-
-                <!-- Single Ministry Area -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-ministry mb-100">
-                        <img src="/indexcss/img/bg-img/daycare-2.jpg" alt="">
-                    </div>
-                </div>
-
-                <!-- Single Ministry Area -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-ministry mb-100">
-                        <img src="/indexcss/img/bg-img/daycare-3.jpg" alt="">
-                    </div>
-                </div>
-
-            </div>
-            <p><strong>Admission and Fee information WA Chat :</strong>&nbsp;<a href="https://api.whatsapp.com/send?phone=62895800013028">+62895800013028</a></p>
-            <p><strong></p>
         </div>
     </section>
-    <!-- ##### Ministries Area End ##### -->
+    <!-- ##### Daycare Area End ##### -->
     <!-- ##### Footer Area Start ##### -->
     @include('bagian.footer')
     <!-- ##### Footer Area Start ##### -->

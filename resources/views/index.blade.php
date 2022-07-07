@@ -9,7 +9,7 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
-    <title>Duta Bina Bhunan Foundation</title>
+    <title>Duta Bina Bhuna Foundation</title>
 
     <!-- Favicon -->
     @include('bagian.icon')
@@ -20,32 +20,6 @@
 </head>
 
 <body>
-    <!-- ##### Search Wrapper Start ##### -->
-    <div class="search-wrapper d-flex align-items-center justify-content-center bg-img foo-bg-overlay" style="background-image: url(indexcss/img/bg-img/bg-2.jpg);">
-        <div class="close--icon">
-            <i class="fa fa-times"></i>
-        </div>
-        <!-- Logo -->
-        <a href="index.html" class="search-logo"><img src="/indexcss/img/core-img/logo2.png" alt=""></a>
-        <!-- Search Form -->
-        <div class="search-form">
-            <form action="#" method="get">
-                <input type="search" name="search" id="search" placeholder="Enter Your Keywords">
-                <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
-            </form>
-        </div>
-        <!-- Copwrite Text -->
-        <div class="copywrite-text">
-            <p>
-                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                Copyright &copy;<script>
-                    document.write(new Date().getFullYear());
-                </script> Duta Bina Bhuana Foundation</a>
-                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            </p>
-        </div>
-    </div>
-    <!-- ##### Search Wrapper End ##### -->
 
     <!-- ##### Loading ##### -->
     @include('bagian.loading')
@@ -92,85 +66,55 @@
     <!-- ##### About Area End ##### -->
     <!-- education bali osec-->
     <h3>Bali Osec</h3>
-    <section class="tiles section-padding-100-0">
-        <article>
-            <span class="image">
-                <img src="indexcss/img/bg-img/computer.jpg" height="541 px" width="433 px" alt="" />
-            </span>
-            <a href="/computer">
-                <h2>Computer Class</h2>
+    <div class="faith-blog-area section-padding-100-0">
+        <div class="container">
+            <div class="row">
+                <!-- Single Blog Area -->
+                <div class="col-12 col-lg-4">
+                    <div class="single-blog-area mb-100">
+                        <div class="blog-thumbnail">
+                            <img src="/indexcss/img/bg-img/computer.jpg" height="100 px" width="100 px" alt="" />
+                        </div>
+                        <div class="blog-content">
+                            <a href="/computer" class="blog-title">Computer Class</a>
+                        </div>
+                    </div>
+                </div>
 
-            </a>
-        </article>
+                <!-- Single Blog Area -->
+                <div class="col-12 col-lg-4">
+                    <div class="single-blog-area mb-100">
+                        <div class="blog-thumbnail">
+                            <img src="/indexcss/img/bg-img/english.jpg" height="541 px" width="433 px" alt="" />
+                        </div>
+                        <div class="blog-content">
+                            <a href="/english" class="blog-title">English Class</a>
+                        </div>
+                    </div>
+                </div>
 
-        <article>
-            <span class="image">
-                <img src="indexcss/img/bg-img/english.jpg" height="541 px" width="433 px" alt="" />
-            </span>
-            <a href="/english">
-                <h2>English Class</h2>
-
-            </a>
-        </article>
-
-        <article>
-            <span class="image">
-                <img src="indexcss/img/bg-img/dance.jpg" height="541 px" width="433 px" alt="" />
-            </span>
-            <a href="/dance">
-                <h2>Balinese Dance Class</h2>
-            </a>
-        </article>
-    </section>
+                <!-- Single Blog Area -->
+                <div class="col-12 col-lg-4">
+                    <div class="single-blog-area mb-100">
+                        <div class="blog-thumbnail">
+                            <img src="/indexcss/img/bg-img/dance.jpg" height="541 px" width="433 px" alt="" />
+                        </div>
+                        <div class="blog-content">
+                            <a href="/dance" class="blog-title">Balinese Dance Class</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- education bali osec-->
     <!-- education DBB School-->
-    <h3>DBB School</h3>
-    <section class="tiles section-padding-100-0">
-        <article>
-            <span class="image">
-                <img src="indexcss/img/bg-img/playgroup.jpg" height="541 px" width="433 px" alt="" />
-            </span>
-            <a href="/playgroup">
-                <h2>Playgroup</h2>
-            </a>
-        </article>
-
-        <article>
-            <span class="image">
-                <img src="indexcss/img/bg-img/kindergarten.jpg" height="541 px" width="433 px" alt="" />
-            </span>
-            <a href="/kindergarten">
-                <h2>kindergarten</h2>
-            </a>
-        </article>
-
-        <article>
-            <span class="image">
-                <img src="indexcss/img/bg-img/elementary.jpg" height="541 px" width="433 px" alt="" />
-            </span>
-            <a href="/elementary">
-                <h2>Elementary School</h2>
-            </a>
-        </article>
-
-        <article>
-            <span class="image">
-                <img src="indexcss/img/bg-img/daycaree.jpg" height="541 px" width="433 px" alt="" />
-            </span>
-            <a href="/daycare">
-                <h2>Daycare</h2>
-            </a>
-        </article>
-    </section>
-    <!-- education DBB School-->
-    <!-- ##### Donate Area Start ##### -->
-    <section class="donate-our-charities section-padding-100 bg-img bg-overlay" style="background-image: url(indexcss/img/bg-img/bg3.jpg);">
+    <section class="donate-our-charities section-padding-100 bg-img bg-overlay" style="background-image: url(indexcss/img/bg-img/m2.jpg);">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="section-heading white text-center mx-auto">
-                        <h3>Donate to our Charities</h3>
-                        <p>Donec quis metus ac arcu luctus accumsan. Nunc in justo tincidunt, sodales nunc id, finibus nibh.</p>
+                        <h3>DBB School</h3>
                     </div>
                 </div>
             </div>
@@ -179,14 +123,46 @@
                 <div class="col-12">
                     <div class="donate-slides owl-carousel">
 
+                        <!-- Single Donate Slide Area -->
+                        <div class="single-donate-slide">
+                            <img src="indexcss/img/bg-img/playgroup.jpg" alt="">
+                            <div class="donate-btn text-center">
+                                <a href="/playgroup" class="btn faith-btn active">Playgroup</a>
+                            </div>
+                        </div>
 
+                        <!-- Single Donate Slide Area -->
+                        <div class="single-donate-slide">
+                            <img src="indexcss/img/bg-img/kindergarten.jpg" alt="">
+                            <!-- Donate Button -->
+                            <div class="donate-btn text-center">
+                                <a href="/kindergarten" class="btn faith-btn active">Kindergarten</a>
+                            </div>
+                        </div>
 
+                        <!-- Single Donate Slide Area -->
+                        <div class="single-donate-slide">
+                            <img src="indexcss/img/bg-img/elementary.jpg" alt="">
+                            <!-- Donate Button -->
+                            <div class="donate-btn text-center">
+                                <a href="/elementary" class="btn faith-btn active">Elementary School</a>
+                            </div>
+                        </div>
+
+                        <!-- Single Donate Slide Area -->
+                        <div class="single-donate-slide">
+                            <img src="indexcss/img/bg-img/donate4.jpg" alt="">
+                            <!-- Donate Button -->
+                            <div class="donate-btn text-center">
+                                <a href="/daycare" class="btn faith-btn active">Daycare</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- ##### Donate Area End ##### -->
+    <!-- education DBB School-->
 
     <!-- ##### empowerment Start ##### -->
     <div class="faith-blog-area section-padding-100-0">
@@ -201,35 +177,38 @@
         </div>
     </div>
     <!-- Empowerment  -->
-    <section class="tiles">
+    <div class="faith-blog-area section-padding-100-0">
+        <div class="container">
+            <div class="row">
+                <!-- Single Blog Area -->
+                <div class="col-12 col-lg-4">
+                    <div class="single-blog-area mb-100">
+                        <div class="blog-thumbnail">
+                            <a href="https://dbbcentre.com/plc/"><img src="/indexcss/img/bg-img/plc.jpeg" height="541 px" width="433 px" alt="" /></a>
+                        </div>
+                    </div>
+                </div>
 
-        <article>
-            <span class="image">
-                <img src="indexcss/img/bg-img/plc.jpg" height="541 px" width="433 px" alt="" />
-            </span>
-            <a href="https://dbbcentre.com/plc/">
+                <!-- Single Blog Area -->
+                <div class="col-12 col-lg-4">
+                    <div class="single-blog-area mb-100">
+                        <div class="blog-thumbnail">
+                            <a href="https://dbbcentre.com/srikandi/"><img src="/indexcss/img/bg-img/srikandi.jpeg" height="541 px" width="433 px" alt="" /></a>
+                        </div>
+                    </div>
+                </div>
 
-            </a>
-        </article>
-
-        <article>
-            <span class="image">
-                <img src="indexcss/img/bg-img/srikandi.jpeg" height="541 px" width="433 px" alt="" />
-            </span>
-            <a href="https://dbbcentre.com/srikandi/">
-
-            </a>
-        </article>
-
-        <article>
-            <span class="image">
-                <img src="indexcss/img/bg-img/toko.jpeg" height="541 px" width="433 px" alt="" />
-            </span>
-            <a href="/dance">
-
-            </a>
-        </article>
-    </section>
+                <!-- Single Blog Area -->
+                <div class="col-12 col-lg-4">
+                    <div class="single-blog-area mb-100">
+                        <div class="blog-thumbnail">
+                            <a href="/toko"><img src="/indexcss/img/bg-img/toko.jpeg" height="541 px" width="433 px" alt="" /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Empowerment  -->
     <!-- ##### empowerment End ##### -->
 

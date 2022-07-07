@@ -55,14 +55,11 @@
     <!-- ##### Header Area End ##### -->
 
     <!-- ##### Breadcumb Area Start ##### -->
-    <div class="breadcumb-area bg-img" style="background-image: url(/indexcss/img/bg-img/bg-4.jpg);">
+    <div class="breadcumb-area bg-img" style="background-image: url(/indexcss/img/bg-img/kindergarten.png);">
         <div class="container h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-12 col-md-6">
                     <div class="breadcumb-text">
-                        <h5>Join one today</h5>
-                        <h2>DBB School Kindergarten</h2>
-                        <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
                     </div>
                 </div>
             </div>
@@ -70,84 +67,128 @@
     </div>
     <!-- ##### Breadcumb Area End ##### -->
 
-    <!-- ##### Ministries Area Start ##### -->
-    <section class="ministries-area section-padding-100-0">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div>
-                        <h3>Duta Bina Bhuana Kindergarten [4-6 Years]</h3>
-                        <p>The DBB Kindergarten strives to raise well-behaved, disciplined, physically and mentally healthy children.
-                            Kindergarten students at DBB School are given the opportunity to explore all areas of their interests,
-                            as well as be introduced to many fields of art and abilities not covered in the traditional Curriculum,
-                            by providing pupils with exceptional opportunities through excellent extra-curricular classes that enhance
-                            child development and skill development.</p>
-                        <h3>Duta Bina Bhuana Kindergarten Program</h3>
-                        <ol>
-                            <ul type="disc">
-                                <li>- Arts Classes</li>
-                                <li>- Traditional Balinese Dances</li>
-                                <li>- English Classes</li>
-                                <li>- Mandarin Classes</li>
-                                <li>- Music Classes (Guitar, Piano & Violin)</li>
-                                <li>- Fashion Show Class</li>
-                                <li>- Montesori Inspired Classes
-                                    (based on self-directed activity, hands-on learning and collaborative play with a Montessori trained teacher)</li>
-                            </ul>
-                        </ol>
-                        <h3>Documentation</h3>
+    <!-- ##### kinder garten Area Start ##### -->
+    <section class="faith-about-area section-padding-100-0">
+        <!-- ##### Education Start ##### -->
+        <div class="faith-blog-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-heading text-center mx-auto">
+                            <p>The DBB Kindergarten strives to raise well-behaved, disciplined, physically and mentally healthy children.
+                                Kindergarten students at DBB School are given the opportunity to explore all areas of their interests,
+                                as well as be introduced to many fields of art and abilities not covered in the traditional Curriculum,
+                                by providing pupils with exceptional opportunities through excellent extra-curricular classes that enhance
+                                child development and skill development.</p>
+                            <h3>Kindergarten Program</h3>
+                            <ol>
+                                <ul type="disc">
+                                    <p>Arts Classes</p>
+                                    <p>Traditional Balinese Dances</p>
+                                    <p>English Classes</p>
+                                    <p>Mandarin Classes</p>
+                                    <p>Music Classes (Guitar, Piano & Violin)</p>
+                                    <p>Fashion Show Class</p>
+                                    <p>Montesori Inspired Classes
+                                        (based on self-directed activity, hands-on learning and collaborative play with a Montessori trained teacher)</p>
+                                </ul>
+                            </ol>
+                            <h3>Documentation</h3>
+                            <div class="row">
+                                <!-- Single Ministry Area -->
+                                <div class="col-12 col-sm-6 col-lg-4">
+                                    <div class="single-ministry mb-100">
+                                        <img src="/indexcss/img/bg-img/daycare-1.jpg" alt="">
+                                    </div>
+                                </div>
+
+                                <!-- Single Ministry Area -->
+                                <div class="col-12 col-sm-6 col-lg-4">
+                                    <div class="single-ministry mb-100">
+                                        <img src="/indexcss/img/bg-img/daycare-2.jpg" alt="">
+                                    </div>
+                                </div>
+
+                                <!-- Single Ministry Area -->
+                                <div class="col-12 col-sm-6 col-lg-4">
+                                    <div class="single-ministry mb-100">
+                                        <img src="/indexcss/img/bg-img/daycare-3.jpg" alt="">
+                                    </div>
+                                </div>
+                                <!-- Single Ministry Area -->
+                                <div class="col-12 col-sm-6 col-lg-4">
+                                    <div class="single-ministry">
+                                        <img src="/indexcss/img/bg-img/daycare-1.jpg" alt="">
+                                    </div>
+                                </div>
+
+                                <!-- Single Ministry Area -->
+                                <div class="col-12 col-sm-6 col-lg-4">
+                                    <div class="single-ministry">
+                                        <img src="/indexcss/img/bg-img/daycare-2.jpg" alt="">
+                                    </div>
+                                </div>
+
+                                <!-- Single Ministry Area -->
+                                <div class="col-12 col-sm-6 col-lg-4">
+                                    <div class="single-ministry">
+                                        <img src="/indexcss/img/bg-img/daycare-3.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <h3>Graduation</h3>
+                            <div class="row">
+                                <!-- Single Ministry Area -->
+                                <div class="col-12 col-sm-6 col-lg-4">
+                                    <div class="single-ministry mb-100">
+                                        <img src="/indexcss/img/bg-img/daycare-1.jpg" alt="">
+                                    </div>
+                                </div>
+
+                                <!-- Single Ministry Area -->
+                                <div class="col-12 col-sm-6 col-lg-4">
+                                    <div class="single-ministry mb-100">
+                                        <img src="/indexcss/img/bg-img/daycare-2.jpg" alt="">
+                                    </div>
+                                </div>
+
+                                <!-- Single Ministry Area -->
+                                <div class="col-12 col-sm-6 col-lg-4">
+                                    <div class="single-ministry mb-100">
+                                        <img src="/indexcss/img/bg-img/daycare-3.jpg" alt="">
+                                    </div>
+                                </div>
+                                <!-- Single Ministry Area -->
+                                <div class="col-12 col-sm-6 col-lg-4">
+                                    <div class="single-ministry mb-100">
+                                        <img src="/indexcss/img/bg-img/daycare-1.jpg" alt="">
+                                    </div>
+                                </div>
+
+                                <!-- Single Ministry Area -->
+                                <div class="col-12 col-sm-6 col-lg-4">
+                                    <div class="single-ministry mb-100">
+                                        <img src="/indexcss/img/bg-img/daycare-2.jpg" alt="">
+                                    </div>
+                                </div>
+
+                                <!-- Single Ministry Area -->
+                                <div class="col-12 col-sm-6 col-lg-4">
+                                    <div class="single-ministry mb-100">
+                                        <img src="/indexcss/img/bg-img/daycare-3.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <p><strong>Admission and Fee information :</strong>&nbsp; <a href="/file-daftar/formulir TK.docx">Download Pdf File</a></p>
+                            <p><strong>WA Chat :</strong>&nbsp; <a href="https://api.whatsapp.com/send?phone=62895800013028">+62895800013028</a></p>
+                        </div>
                     </div>
                 </div>
             </div>
-
-            <div class="row">
-                <!-- Single Ministry Area -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-ministry mb-100">
-                        <img src="/indexcss/img/bg-img/daycare-1.jpg" alt="">
-                    </div>
-                </div>
-
-                <!-- Single Ministry Area -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-ministry mb-100">
-                        <img src="/indexcss/img/bg-img/daycare-2.jpg" alt="">
-                    </div>
-                </div>
-
-                <!-- Single Ministry Area -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-ministry mb-100">
-                        <img src="/indexcss/img/bg-img/daycare-3.jpg" alt="">
-                    </div>
-                </div>
-                <!-- Single Ministry Area -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-ministry mb-100">
-                        <img src="/indexcss/img/bg-img/daycare-1.jpg" alt="">
-                    </div>
-                </div>
-
-                <!-- Single Ministry Area -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-ministry mb-100">
-                        <img src="/indexcss/img/bg-img/daycare-2.jpg" alt="">
-                    </div>
-                </div>
-
-                <!-- Single Ministry Area -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-ministry mb-100">
-                        <img src="/indexcss/img/bg-img/daycare-3.jpg" alt="">
-                    </div>
-                </div>
-
-            </div>
-            <p><strong>Admission and Fee information :</strong>&nbsp; <a href="/file-daftar/Formulir Pendaftaraan TK.docx">Download Pdf File</a></p>
-            <p><strong>WA Chat :</strong>&nbsp; <a href="https://api.whatsapp.com/send?phone=62895800013028">+62895800013028</a></p>
         </div>
+        <!-- ##### Education End ##### -->
     </section>
-    <!-- ##### Ministries Area End ##### -->
+    <!-- ##### kinder garten Area Start ##### -->
     <!-- ##### Footer Area Start ##### -->
     @include('bagian.footer')
     <!-- ##### Footer Area Start ##### -->
